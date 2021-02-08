@@ -9,7 +9,9 @@
 
 .headerBg {
     background-image: url(../img/Background_slider.jpg);
-    background-size: cover;
+    background-size: contain;
+    padding-bottom: 20%;
+    z-index: 1;
 }
 
 
@@ -22,7 +24,13 @@ button {
 }
 
 
-/* Navbar búsqueda y filtros */
+/* Portada */
+
+.positionSearch {
+    position: relative;
+    margin-top: 250px;
+    z-index: 1000;
+}
 
 .widthSearch {
     width: 75%;
