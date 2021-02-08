@@ -6,3 +6,17 @@
 .mayus {
     text-transform: uppercase;
 }
+
+.headerBg {
+    background-image: url(../img/Background_slider.jpg);
+    background-size: cover;
+}
+
+
+/* Navbar1 */
+
+.textFormat a,
+button {
+    color: whitesmoke;
+    font-size: small;
+}
