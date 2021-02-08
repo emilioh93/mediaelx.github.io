@@ -20,3 +20,21 @@ button {
     color: whitesmoke;
     font-size: small;
 }
+
+
+/* Navbar búsqueda y filtros */
+
+.widthSearch {
+    width: 75%;
+}
+
+.textFormatSearch {
+    font-size: small;
+    text-align: start;
+}
+
+.textFormatSearch button {
+    width: 100%;
+    font-size: small;
+    text-align: start;
+}
