@@ -48,3 +48,26 @@ button {
     font-size: small;
     text-align: start;
 }
+
+
+/* Property Month */
+
+.propertyMonth {
+    background-image: url(../img/background_property_month.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.propertyMonth div {
+    z-index: 1000;
+}
+
+.cardTextSize {
+    font-size: small;
+}
+
+.cardProp {
+    border: none;
+    background: none;
+    height: 75%;
+}
