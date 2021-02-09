@@ -78,3 +78,19 @@ button {
 .btnFeatured {
     width: 40%;
 }
+
+
+/* Artículos */
+
+.anchoImg {
+    width: 120%;
+}
+
+.positionImg {
+    position: relative;
+    margin-left: -110px;
+}
+
+.alinerTexto {
+    text-align: right;
+}
