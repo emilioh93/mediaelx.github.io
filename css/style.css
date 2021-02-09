@@ -9,7 +9,9 @@
 
 .headerBg {
     background-image: url(../img/Background_slider.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
     padding-bottom: 20%;
     z-index: 1;
 }
