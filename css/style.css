@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     padding: 0%;
     margin: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .mayus {
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.fontSizeMd {
+    font-size: small;
+}
+
 .headerBg {
     background-image: url(../img/Background_slider.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: contain;
     padding-bottom: 20%;
     z-index: 1;
 }
@@ -23,6 +46,19 @@
 button {
     color: whitesmoke;
     font-size: small;
+}
+
+.alturaNavbar {
+    height: 19px;
+}
+
+.containerNavBars {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.alturaIconos {
+    width: 10%;
 }
 
 
