@@ -42,6 +42,10 @@ p {
 
 /* Navbar1 */
 
+.navbar-light .navbar-nav .nav-link {
+    color: #7c94ac;
+}
+
 .textFormat a,
 button {
     color: whitesmoke;
@@ -66,7 +70,7 @@ button {
 
 .positionSearch {
     position: relative;
-    margin-top: 250px;
+    margin-top: 280px;
     z-index: 1000;
 }
 

@@ -9,7 +9,7 @@
     <!-- meta autor, kw -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>MiInmobiliaria</title>
+    <title>MiInmobiliaria.com</title>
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mayus bold fontSizeMd align-items-center">
+                    <ul class="navbar-nav ml-auto mayus bold violeta fontSizeMd align-items-center">
                         <li class="nav-item active px-2">
                             <a class="nav-link" href="#">Home</a>
                         </li>
@@ -90,22 +90,25 @@
         <section class="positionSearch">
             <section class="d-flex justify-content-center text-center my-5">
                 <div class="text-light">
-                    <h1 class="mayus">Sed ut prespiciatis unde</h1>
-                    <p>Lorem, ipsum dolor sit</p>
+                    <h1 class="mayus bold">Sed ut prespiciatis unde</h1>
+                    <p>Lorem ipsum dolor sit</p>
                 </div>
             </section>
+            <!-- TODO: crear dropdowns personalizados, porque los de bootstrap no me funcionan -->
             <section class="mayus d-flex justify-content-center">
-                <div class="row bg-light py-3 px-5 textFormatSearch widthSearch">
+                <div class="row bg-light py-3 px-5 textFormatSearch widthSearch bold">
                     <div class="col-lg-5">
                         <div class="row">
                             <div class="col-6">
                                 <span>Town</span>
                                 <div class="dropdown">
-                                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Dropdown
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Action</button>
+                                        <button class="dropdown-item" type="button">Another action</button>
+                                        <button class="dropdown-item" type="button">Something else here</button>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +157,7 @@
                             <img src="img/advanced.svg" alt="ícono de lupa">
                         </button>
                         <button class="btn btn-dark rounded-0 px-4 text-center mx-3">
-                            <img src="img/advanced_less_white.svg" alt="ícono de lupa">
+                            <img src="img/search.svg" alt="ícono de lupa">
                         </button>
                     </div>
                 </div>
@@ -393,8 +396,8 @@
             </div>
         </div>
     </footer>
-    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
