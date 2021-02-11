@@ -68,6 +68,31 @@ button {
 
 /* Portada */
 
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bordeSelector {
+    border-color: rgba(105, 103, 103, 0.178);
+    position: absolute;
+    margin-top: 20px;
+    width: 90%;
+    background-color: rgba(245, 245, 245, 0.027);
+}
+
+.anchoFiltros {
+    width: 59%;
+}
+
+.violeta {
+    color: #7c94ac;
+}
+
+.alinearBtn {
+    text-align: start;
+}
+
 .positionSearch {
     position: relative;
     margin-top: 280px;
